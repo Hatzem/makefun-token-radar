@@ -1,0 +1,15 @@
+out/
+shot/node_modules/
+node_modules/
+# NEVER push secrets — make.fun refuses entries with a committed secret,
+# and a leaked Solana keypair drains the payout wallet.
+makefun-keypair.json
+*.keypair.json
+*.pem
+*.key
+.env
+.env.*
+credentials
+**/credentials
+*.tar.gz
+transcripts.tar.gz
